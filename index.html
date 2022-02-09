@@ -61,5 +61,23 @@ I recommend Basketball, Volleyball, Soccer and Tennis to anyone who is intereste
     </tr>
 </table>
 
+<hr>
+<blockquote>
+<h1> Data Structures </h1>
+<p>A data structure is a particular way of organizing data in a computer so
+     that it can be used effectively</p>
+<a href="https://www.geeksforgeeks.org/data-structures/"> More Info on data structures</a>
+</blockquote>
+
+<pre>
+    for (int i = 0; i < N; i++)
+    st[i][0] = f(array[i]);
+
+    for (int j = 1; j <= K; j++)
+        for (int i = 0; i + (1 << j) <= N; i++)
+            st[i][j] = f(st[i][j-1], st[i + (1 << (j - 1))][j - 1]);
+</pre>
+<a href="https://cp-algorithms.com/data_structures/sparse-table.html"> Source code </a>
+
 </body>
 </html>
